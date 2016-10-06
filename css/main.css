@@ -33,7 +33,7 @@ body {
 #header-image {
 		width: 600px;
 		height: 100px;
-    margin-bottom: 75px;
+    margin-bottom: 25px;
     display: inline-block;
     clear: both;
 }
@@ -76,8 +76,14 @@ body {
   margin: auto;
 }
 
+#text {
+  color: red;
+  font-weight: bold;
+  font-size: 48px;
+}
+
 #content form {
-    margin-top: 50px;
+    margin-top: 25px;
     margin-bottom: 75px;
     width: auto;
     padding: 1em;
@@ -115,7 +121,7 @@ button {
 #social-media {
     width: 100%;
     text-align:center;
-    margin-top: 100px;
+    margin-top: 75px;
     postion: fixed;
 }
 
