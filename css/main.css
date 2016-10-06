@@ -35,13 +35,25 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
+    margin-bottom: 100px;
     display: block;
+}
+
+#text {
+  text-align:center;
+  display: block;
+}
+
+#text p {
+    color: red;
+    font-size: 36pt;
+    font-weight: bold;
 }
 
 #social-media {
     width: 100%;
     text-align:center;
-    margin-top: 150px;
+    margin-top: 125px;
 }
 
 #social-media ul {
@@ -55,7 +67,7 @@ body {
 }
 
 #social-media li a {
-    margin: 30px;
+    margin: 40px;
 }
 
 /*
