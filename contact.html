@@ -45,9 +45,25 @@
 
         <div id ="text">
           <p>
-              Get to know me:
+            Get in touch
           </p>
         </div>
+
+        <form action="/my-handling-form-page" method="post">
+            <div>
+                <input type="text" id="name" name="user_name" placeholder="Your name" />
+            </div>
+            <div>
+                <input type="email" id="mail" name="user_email" placeholder="Your email" />
+            </div>
+            <div>
+                <textarea id="msg" name="user_message" placeholder="Your message"></textarea>
+            </div>
+
+            <div class="button">
+                <button type="submit">Send your message</button>
+            </div>
+        </form>
 
       </div>
 

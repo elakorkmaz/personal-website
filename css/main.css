@@ -33,7 +33,7 @@ body {
 #header-image {
 		width: 600px;
 		height: 100px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     display: inline-block;
     clear: both;
 }
@@ -77,17 +77,17 @@ body {
 }
 
 #text {
-  color: red;
+  color: #5EB27F;
   font-weight: bold;
   font-size: 48px;
+  text-align: center;
 }
 
 #content form {
-    margin-top: 25px;
-    margin-bottom: 75px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     width: auto;
     padding: 1em;
-    border: 0.5px solid #999;
 }
 
 form div + div {
@@ -95,10 +95,11 @@ form div + div {
 }
 
 input, textarea {
-    color: red;
+    color: #5EB27F;
+    font-weight: bold;
     width: 100%;
     box-sizing: border-box;
-    border: 0.5px solid #999;
+    border: 4px dotted #999;
 }
 
 input:focus, textarea:focus {
@@ -112,16 +113,16 @@ textarea {
 }
 
 .button {
-    padding-left: 90px;
+
 }
 button {
-    margin-left: .5em;
+
 }
 
 #social-media {
     width: 100%;
     text-align:center;
-    margin-top: 75px;
+    margin-top: px;
     postion: fixed;
 }
 
