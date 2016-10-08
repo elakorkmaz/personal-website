@@ -14,8 +14,6 @@ html, body {
     color: #222;
     font-family: "Helvetica", sans-serif;
     font-size: 1em;
-    line-height: 1.4;
-
 	}
 
 body {
@@ -26,14 +24,14 @@ body {
 }
 
 #page-wrap {
-     width: 1200px;
+     width: 1000px;
      margin: 0 auto;
 }
 
 #header-image {
-		width: 600px;
-		height: 100px;
-    margin-bottom: 15px;
+		width: 300px;
+		height: 50px;
+    margin-top: 5px;
     display: inline-block;
     clear: both;
 }
@@ -41,9 +39,8 @@ body {
 #menu
  	{
  		font-family: "Arial narrow", sans-serif;
- 		font-size: 16pt;
+ 		font-size: 24px;
  		font-weight: 100;
- 		padding-top: 10px;
     display: inline-block;
     float: right;
  	}
@@ -51,6 +48,7 @@ body {
  #menu ul
  	{
  		display: inline-block;
+    margin: 0px;
  	}
 
  #menu li
@@ -62,14 +60,13 @@ body {
 
  #menu li a
  	{
+    color: #C5C5C5;
  		display: block;
- 		padding: 25px;
+ 		margin: 25px;
  		text-decoration: none;
- 		font-weight: 500;
+ 		font-weight: bold;0;
  		outline: 0;
- 		color: #000000;
   }
-
 
 #content {
   width: 50%;
@@ -88,6 +85,7 @@ body {
     margin-bottom: 15px;
     width: auto;
     padding: 1em;
+    border: 6px solid #5EB27F;
 }
 
 form div + div {
@@ -99,16 +97,16 @@ input, textarea {
     font-weight: bold;
     width: 100%;
     box-sizing: border-box;
-    border: 4px dotted #999;
+    border: 0px dotted #999;
 }
 
 input:focus, textarea:focus {
-    border-color: #000;
+    border-color: #000000;
 }
 
 textarea {
     vertical-align: top;
-    height: 200px;
+    height: 100px;
     resize: vertical;
 }
 
@@ -116,14 +114,14 @@ textarea {
 
 }
 button {
-
+    background-color: #C5C5C5;
+    color: white;
 }
 
 #social-media {
     width: 100%;
     text-align:center;
-    margin-top: px;
-    postion: fixed;
+    margin-top: 15px;
 }
 
 #social-media ul {
@@ -138,7 +136,7 @@ button {
 
 #social-media li a {
   display: block;
-  padding: 51px;
+  margin: 51px;
   text-decoration: none;
   font-weight: 500;
   outline: 0;
