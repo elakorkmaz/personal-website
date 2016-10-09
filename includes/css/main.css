@@ -115,7 +115,7 @@ html, body {
 
 #horizontal-line-2 {
   margin: 0 auto;
-  width: 446px;
+  width: 447px;
   height: 3px;
   background: #3AB19D;
 }
@@ -188,7 +188,6 @@ form div + div {
 
 input, textarea {
   color: #000;
-  font-weight: bold;
   width: 100%;
   box-sizing: border-box;
   border: 0px dotted #999;
@@ -202,6 +201,7 @@ textarea {
   vertical-align: top;
   height: 100px;
   resize: vertical;
+  font-family: "Helvetica", sans-serif;
 }
 
 button {
