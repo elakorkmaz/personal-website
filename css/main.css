@@ -31,7 +31,6 @@ body {
 #header-image {
 		width: 300px;
 		height: 50px;
-    margin-top: 5px;
     display: inline-block;
     clear: both;
 }
@@ -62,10 +61,11 @@ body {
  	{
     color: #C5C5C5;
  		display: block;
- 		margin: 25px;
+ 		margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 20px;
  		text-decoration: none;
  		font-weight: bold;0;
- 		outline: 0;
   }
 
 #content {
@@ -78,13 +78,71 @@ body {
   font-weight: bold;
   font-size: 48px;
   text-align: center;
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#text p {
+  padding: 0px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.horizontal-line-1 {
+  margin: 0 auto;
+  width: 300px;
+  height: 3px;
+  background: #5EB27F;
+}
+
+.vertical-line {
+  margin: 0 auto;
+  width: 3px;
+  height: 50px;
+  background: #5EB27F;
+}
+
+.horizontal-line-2 {
+  margin: 0 auto;
+  width: 446px;
+  height: 3px;
+  background: #5EB27F;
+}
+
+#multiple-lines {
+    width: auto;
+    height: 50px;
+    margin-bottom: 0;
+    text-align:center;
+    display: block;
+    padding: 0;
+}
+
+#multiple-lines ul {
+    width: auto;
+    height: auto;
+    display: block;
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+}
+
+#multiple-lines li {
+    width: auto;
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
 #content form {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    width: auto;
-    padding: 1em;
+    width: 300;
+    padding: 10px;
     border: 6px solid #5EB27F;
 }
 
@@ -93,7 +151,7 @@ form div + div {
 }
 
 input, textarea {
-    color: #5EB27F;
+    color: #000;
     font-weight: bold;
     width: 100%;
     box-sizing: border-box;
@@ -119,28 +177,32 @@ button {
 }
 
 #social-media {
-    width: 100%;
-    text-align:center;
-    margin-top: 15px;
+  width: 100%;
+  text-align:center;
+  margin-bottom: 0;
+  display: block;
 }
 
 #social-media ul {
-    width: 100%;
-    display: inline;
-    padding: 0;
+  width: 100%;
+  display: block;
+  padding: 0;
+  margin-top: 0px;
 }
 
 #social-media li {
-    display: inline-block;
+  display: inline-block;
 }
 
 #social-media li a {
+  border: 6px solid #5EB27F;
+  background-color: #5EB27F;
   display: block;
-  margin: 51px;
-  text-decoration: none;
-  font-weight: 500;
-  outline: 0;
-  color: #000000
+  margin-left: 48px;
+  margin-right: 48px;
+  margin-top: 0;
+  margin-bottom: 0;
+
 }
 
 /*
