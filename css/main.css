@@ -11,58 +11,53 @@
    ========================================================================== */
 
 html, body {
-    color: #000;
-    font-family: "Helvetica", sans-serif;
-		background: #FFF;
-		font-size: 18px;
-		font-weight: 100;
-    padding: 15px;
+  color: #000;
+  font-family: "Helvetica", sans-serif;
+	background: #FFF;
+	font-size: 18px;
+	font-weight: 100;
+  padding: 15px;
 }
 
 #page-wrap {
-     width: 1000px;
-     margin: 0 auto;
+  width: 1000px;
+  margin: 0 auto;
 }
 
 #header-image {
-		width: 300px;
-		height: 50px;
-    display: inline-block;
-    clear: both;
+	width: 300px;
+	height: 50px;
+  display: inline-block;
+  clear: both;
 }
 
-#menu
- 	{
- 		font-family: "Arial narrow", sans-serif;
- 		font-size: 24px;
- 		font-weight: 100;
-    display: inline-block;
-    float: right;
- 	}
+#menu {
+ 	font-size: 24px;
+ 	font-weight: 100;
+  display: inline-block;
+  float: right;
+}
 
- #menu ul
- 	{
- 		display: inline-block;
-    margin: 0px;
- 	}
+#menu ul {
+ 	display: inline-block;
+  margin: 0px;
+}
 
- #menu li
- 	{
- 		display: block;
- 		float: left;
- 		text-align: right;
- 	}
+#menu li {
+ 	display: block;
+ 	float: left;
+ 	text-align: right;
+}
 
- #menu li a
- 	{
-    color: #C5C5C5;
- 		display: block;
- 		margin-left: 25px;
-    margin-right: 25px;
-    margin-top: 20px;
- 		text-decoration: none;
- 		font-weight: bold;0;
-  }
+#menu li a {
+  color: #C5C5C5;
+ 	display: block;
+ 	margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 20px;
+ 	text-decoration: none;
+ 	font-weight: bold;0;
+}
 
 .content {
   width: 75%;
@@ -71,15 +66,23 @@ html, body {
   padding: 25px;
 }
 
-#homepage {
-  border: 0px solid #2AA07E;
-  background-color: #2AA07E;
-  color: #FFF;
+#contact {
+  width: 75%;
+  height: auto;
+  margin: auto;
+  padding: 0px;
+}
 
+#homepage {
+  border: 6px solid #3AB19D;
+}
+
+#home {
+  margin-top: 150px;
 }
 
 .title {
-  color: #2AA07E;
+  color: #3AB19D;
   font-weight: bold;
   font-size: 42px;
   text-align: center;
@@ -91,7 +94,7 @@ html, body {
 .title p {
   padding: 0px;
   margin-top: 50px;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
   margin-left: 0;
   margin-right: 0;
 }
@@ -100,129 +103,139 @@ html, body {
   margin: 0 auto;
   width: 310px;
   height: 3px;
-  background: #2AA07E;
+  background: #3AB19D;
 }
 
 #horizontal-line-1 {
   margin: 0 auto;
   width: 242px;
   height: 3px;
-  background: #2AA07E;
+  background: #3AB19D;
 }
 
 #horizontal-line-2 {
   margin: 0 auto;
   width: 446px;
   height: 3px;
-  background: #2AA07E;
+  background: #3AB19D;
 }
 
 #horizontal-line-3 {
   margin: 0 auto;
   width: 240px;
   height: 3px;
-  background: #2AA07E;
+  background: #3AB19D;
 }
 
 .vertical-line {
   margin: 0 auto;
   width: 3px;
   height: 50px;
-  background: #2AA07E;
+  background: #3AB19D;
+}
+
+#portfolio {
+  display: block;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#portfolio li {
+  display: block;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 #multiple-lines {
-    width: auto;
-    height: 50px;
-    margin-top: 0;
-    margin-bottom: 0;
-    text-align:center;
-    display: block;
-    padding: 0;
+  width: auto;
+  height: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align:center;
+  display: block;
+  padding: 0;
 }
 
 #multiple-lines ul {
-    width: auto;
-    display: block;
-    padding: 0;
-    margin-bottom: 0;
-    margin-top: 0;
-    padding: 0;
+  width: auto;
+  display: block;
+  padding: 0;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 #multiple-lines li {
-    width: auto;
-    display: inline-block;
-
-    margin-bottom: 0;
-    margin-left: 70px;
-    margin-right: 70px;
+  width: auto;
+  display: inline-block;
+  margin-bottom: 0;
+  margin-left: 70px;
+  margin-right: 70px;
 }
 
-#content form {
-    width: 500px;
-    padding: 10px;
-    border: 6px solid #2AA07E;
-    margin: auto;
+.contact form {
+  width: 75%;
+  padding: 10px;
+  border: 6px solid #3AB19D;
+  margin: auto;
 }
 
 form div + div {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 input, textarea {
-    color: #000;
-    font-weight: bold;
-    width: 100%;
-    box-sizing: border-box;
-    border: 0px dotted #999;
+  color: #000;
+  font-weight: bold;
+  width: 100%;
+  box-sizing: border-box;
+  border: 0px dotted #999;
 }
 
 input:focus, textarea:focus {
-    border-color: #000000;
+  border-color: #000000;
 }
 
 textarea {
-    vertical-align: top;
-    height: 100px;
-    resize: vertical;
+  vertical-align: top;
+  height: 100px;
+  resize: vertical;
 }
 
-.button {
-
-}
 button {
-    background-color: #C5C5C5;
-    color: white;
+  background-color: #C5C5C5;
+  color: white;
 }
 
 #social-media {
   width: 100%;
-  text-align:center;
+  text-align: center;
   margin-bottom: 0;
-  display: block;
+  display: inline-block;
+  float: right;
 }
 
 #social-media ul {
-  width: 100%;
-  display: block;
+  display: inline-block;
   padding: 0;
-  margin-top: 0px;
+  margin: 0px;
 }
 
 #social-media li {
   display: inline-block;
+  float: left;
 }
 
 #social-media li a {
-  border: 6px solid #2AA07E;
-  background-color: #2AA07E;
+  border: 6px solid #3AB19D;
+  background-color: #3AB19D;
   display: block;
   margin-left: 48px;
   margin-right: 48px;
   margin-top: 0;
   margin-bottom: 0;
-
 }
 
 /*
@@ -299,26 +312,6 @@ textarea {
     color: #000;
     padding: 0.2em 0;
 }
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ==========================================================================
    Helper classes
