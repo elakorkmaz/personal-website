@@ -11,16 +11,12 @@
    ========================================================================== */
 
 html, body {
-    color: #222;
+    color: #000;
     font-family: "Helvetica", sans-serif;
-    font-size: 1em;
-	}
-
-body {
 		background: #FFF;
-		font-size: 12pt;
+		font-size: 18px;
 		font-weight: 100;
-    padding: 25px;
+    padding: 15px;
 }
 
 #page-wrap {
@@ -68,22 +64,31 @@ body {
  		font-weight: bold;0;
   }
 
-#content {
-  width: 50%;
+.content {
+  width: 75%;
+  height: auto;
   margin: auto;
+  padding: 25px;
 }
 
-#text {
-  color: #5EB27F;
+#homepage {
+  border: 0px solid #2AA07E;
+  background-color: #2AA07E;
+  color: #FFF;
+
+}
+
+.title {
+  color: #2AA07E;
   font-weight: bold;
-  font-size: 48px;
+  font-size: 42px;
   text-align: center;
   display: block;
   margin-left: 0;
   margin-right: 0;
 }
 
-#text p {
+.title p {
   padding: 0px;
   margin-top: 50px;
   margin-bottom: 25px;
@@ -91,30 +96,45 @@ body {
   margin-right: 0;
 }
 
-.horizontal-line-1 {
+#horizontal-line {
   margin: 0 auto;
-  width: 300px;
+  width: 310px;
   height: 3px;
-  background: #5EB27F;
+  background: #2AA07E;
+}
+
+#horizontal-line-1 {
+  margin: 0 auto;
+  width: 242px;
+  height: 3px;
+  background: #2AA07E;
+}
+
+#horizontal-line-2 {
+  margin: 0 auto;
+  width: 446px;
+  height: 3px;
+  background: #2AA07E;
+}
+
+#horizontal-line-3 {
+  margin: 0 auto;
+  width: 240px;
+  height: 3px;
+  background: #2AA07E;
 }
 
 .vertical-line {
   margin: 0 auto;
   width: 3px;
   height: 50px;
-  background: #5EB27F;
-}
-
-.horizontal-line-2 {
-  margin: 0 auto;
-  width: 446px;
-  height: 3px;
-  background: #5EB27F;
+  background: #2AA07E;
 }
 
 #multiple-lines {
     width: auto;
     height: 50px;
+    margin-top: 0;
     margin-bottom: 0;
     text-align:center;
     display: block;
@@ -123,7 +143,6 @@ body {
 
 #multiple-lines ul {
     width: auto;
-    height: auto;
     display: block;
     padding: 0;
     margin-bottom: 0;
@@ -134,16 +153,17 @@ body {
 #multiple-lines li {
     width: auto;
     display: inline-block;
-    margin-top: 0;
+
     margin-bottom: 0;
     margin-left: 70px;
     margin-right: 70px;
 }
 
 #content form {
-    width: 300;
+    width: 500px;
     padding: 10px;
-    border: 6px solid #5EB27F;
+    border: 6px solid #2AA07E;
+    margin: auto;
 }
 
 form div + div {
@@ -195,8 +215,8 @@ button {
 }
 
 #social-media li a {
-  border: 6px solid #5EB27F;
-  background-color: #5EB27F;
+  border: 6px solid #2AA07E;
+  background-color: #2AA07E;
   display: block;
   margin-left: 48px;
   margin-right: 48px;
