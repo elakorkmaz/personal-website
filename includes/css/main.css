@@ -62,7 +62,7 @@ body {
   background-color: transparent;
 }
 
-.container: {
+.container {
   margin: 0 auto;
 }
 
@@ -153,7 +153,7 @@ p {
 }
 
 #question {
-  margin-top: 180px;
+  margin-top: 5%;
 }
 
 .title {
@@ -202,9 +202,9 @@ p {
   background: #3AB19D;
 }
 
-#horizontal-line-3 {
+#horizontal-line-4 {
   margin: 0 auto;
-  width: px;
+  width: 220px;
   height: 3px;
   background: #3AB19D;
 }
@@ -220,6 +220,13 @@ p {
   margin: 0 auto;
   width: 3px;
   height: 180px;
+  background: #3AB19D;
+}
+
+.vertical-line-4 {
+  margin: 0 auto;
+  width: 3px;
+  height: 177px;
   background: #3AB19D;
 }
 
@@ -267,6 +274,7 @@ p {
 form {
   width: 75%;
   padding: 10px;
+  height: 420px;
   border-top: 6px solid #3AB19D;
   border-bottom: 6px solid #3AB19D;
   margin: auto;
@@ -299,26 +307,29 @@ button {
   color: white;
 }
 
-#social-media {
+.social-media {
   width: 100%;
   text-align: center;
   margin-bottom: 0;
-  display: inline-block;
-  float: right;
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#social-media ul {
+.social-media ul {
   display: inline-block;
+  margin-bottom: 0;
   padding: 0;
-  margin: 0px;
 }
 
-#social-media li {
+.social-media li {
   display: inline-block;
   float: left;
 }
 
-#social-media li a {
+.social-media li a {
   border: 6px solid #3AB19D;
   background-color: #3AB19D;
   display: block;
@@ -328,8 +339,12 @@ button {
   margin-bottom: 0;
 }
 
-#footer {
+.footer {
   text-align: center;
+  padding-top: 5px;
+  padding-bottom: 25px;
+  font-weight: bold;
+  font-size: 32px;
 }
 
 /*
