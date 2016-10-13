@@ -10,75 +10,150 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html, body {
-  color: #000;
-  font-family: "Helvetica", sans-serif;
-	background: #FFF;
-	font-size: 18px;
-	font-weight: 100;
-  padding: 15px;
+html {
+  margin-top: 250px;
+  height: 100%;
 }
 
-#page-wrap {
-  width: 1000px;
+body {
+  color: #C5C5C5;
+  font-family: "Helvetica neue", sans-serif;
+	font-size: 18px;
+	font-weight: 100;
+  min-height: 100%;
+}
+
+.navbar {
+  display: block;
+  position: fixed;
+  background-color: transparent;
+  width: 75%;
+  border: 0;
+  font-size: 24px;
+  font-weight: 100;
+  float: right;
+  text-align: right;
+  padding: 25px;
+  margin: 0 auto;
+  text-decoration: none;
+  font-weight: bold;
+  color: #C5C5C5;
+  text-align: right;
+}
+
+.navbar-brand img {
+  width: 300px;
+  height: 50px;
+  border: 0;
+}
+
+.navbar-default .navbar-nav {
+  margin-top: 25px;
+  display: block;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #C5C5C5;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #3AB19D;
+  background-color: transparent;
+}
+
+.container: {
   margin: 0 auto;
 }
 
-#header-image {
-	width: 300px;
-	height: 50px;
-  display: inline-block;
-  clear: both;
-}
-
-#menu {
- 	font-size: 24px;
- 	font-weight: 100;
-  display: inline-block;
-  float: right;
-}
-
-#menu ul {
- 	display: inline-block;
-  margin: 0px;
-}
-
-#menu li {
- 	display: block;
- 	float: left;
- 	text-align: right;
-}
-
-#menu li a {
-  color: #C5C5C5;
- 	display: block;
- 	margin-left: 25px;
-  margin-right: 25px;
-  margin-top: 20px;
- 	text-decoration: none;
- 	font-weight: bold;0;
-}
-
 .content {
+  height: 420px;
   width: 75%;
-  height: auto;
-  margin: auto;
+  margin: 0 auto;
   padding: 25px;
+  display: block;
+  border-top: 6px solid #3AB19D;
+  border-bottom: 6px solid #3AB19D;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.btn {
+  display: block;
+  padding: 3px;
+  position: static;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 62px;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  color: #3AB19D;
+  background-color: transparent;
+  border: 6px solid #3AB19D;
+  border-radius: 100px;
+}
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.btn:hover,
+.btn:focus,
+.btn.focus {
+  color: #FFF;
+  background-color:#3AB19D;
+  text-decoration: none;
+}
+.btn:active,
+.btn.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+          box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+
+.vertical-line-2 {
+  margin: 0 auto;
+  width: 3px;
+  height: 600px;
+  background: #3AB19D;
 }
 
 #contact {
-  width: 75%;
+  width: 50%;
   height: auto;
   margin: auto;
   padding: 0px;
 }
 
 #homepage {
-  border: 6px solid #3AB19D;
+  border-top: 6px solid #3AB19D;
+  border-bottom: 6px solid #3AB19D;
 }
 
-#home {
-  margin-top: 150px;
+#question {
+  margin-top: 180px;
 }
 
 .title {
@@ -93,13 +168,13 @@ html, body {
 
 .title p {
   padding: 0px;
-  margin-top: 50px;
+  margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 0;
   margin-right: 0;
 }
 
-#horizontal-line {
+.horizontal-line {
   margin: 0 auto;
   width: 310px;
   height: 3px;
@@ -122,7 +197,14 @@ html, body {
 
 #horizontal-line-3 {
   margin: 0 auto;
-  width: 240px;
+  width: 275px;
+  height: 3px;
+  background: #3AB19D;
+}
+
+#horizontal-line-3 {
+  margin: 0 auto;
+  width: px;
   height: 3px;
   background: #3AB19D;
 }
@@ -131,6 +213,13 @@ html, body {
   margin: 0 auto;
   width: 3px;
   height: 50px;
+  background: #3AB19D;
+}
+
+.vertical-line-3 {
+  margin: 0 auto;
+  width: 3px;
+  height: 180px;
   background: #3AB19D;
 }
 
@@ -175,10 +264,11 @@ html, body {
   margin-right: 70px;
 }
 
-.contact form {
+form {
   width: 75%;
   padding: 10px;
-  border: 6px solid #3AB19D;
+  border-top: 6px solid #3AB19D;
+  border-bottom: 6px solid #3AB19D;
   margin: auto;
 }
 
@@ -187,7 +277,7 @@ form div + div {
 }
 
 input, textarea {
-  color: #000;
+  color: ##AFAFAF;
   width: 100%;
   box-sizing: border-box;
   border: 0px dotted #999;
@@ -236,6 +326,10 @@ button {
   margin-right: 48px;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+#footer {
+  text-align: center;
 }
 
 /*
