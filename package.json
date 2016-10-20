@@ -1,0 +1,27 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "This is my personal website. You can reach me through one of the links on my page.",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elakorkmaz/personal-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elakorkmaz/personal-website/issues"
+  },
+  "homepage": "https://github.com/elakorkmaz/personal-website#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "express": "^4.14.0",
+    "pug": "^2.0.0-beta6"
+  }
+}

@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="shortcut icon" href="icon.jpg">
-  <link href="includes/css/bootstrap.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
   <link href="includes/css/main.css" rel="stylesheet">
 
 </head>
@@ -21,8 +21,8 @@
   <nav class="navbar navbar-default navbar-fixed-top" id="home">
     <div class="container-fluid">
       <div class="navbar-header">
-        <a class="navbar-brand" href="#home">
-          <img alt="Brand" src="includes/img/elakorkmaz.jpg">
+        <a class="navbar-brand" href="#">
+          <img alt="" src="includes/img/elakorkmaz.jpg">
         </a>
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
@@ -60,7 +60,6 @@
   <div class="horizontal-line">
   </div>
   <section class="page">
-    <div class ="container">
       <div class="title">
         <p>
           Get to know me
@@ -70,13 +69,17 @@
       </div>
       <div class="vertical-line">
       </div>
-      <div class="content">
-        <p>
-          Hi! I'm Ela, a designer and developer located in Amsterdam.
-          I have a strong interest in people, design and technology. Currently
-          I'm taking a course in web development at the New York Code + Design
-          Academy.
-        </p>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <p>
+              Hi! I'm Ela, a designer and developer located in Amsterdam.
+              I have a strong interest in people, design and technology. Currently
+              I'm taking a course in web development at the New York Code + Design
+              Academy.
+            </p>
+          </div>
+        </div>
       </div>
   </section>
 
@@ -91,7 +94,6 @@
   </div>
 
   <section class="page">
-    <div class ="container">
       <div class ="title">
         <p>
           View my work
@@ -101,12 +103,11 @@
       </div>
       <div class="vertical-line">
       </div>
-      <div class="content">
+      <div class="container">
         <p>
           Bla
         </p>
       </div>
-    </div>
   </section>
 
   <div class="vertical-line-2">
@@ -120,7 +121,6 @@
   </div>
 
   <section class="page">
-    <div class ="container">
       <div class ="title">
         <p>
           Get in touch
@@ -130,37 +130,38 @@
       </div>
       <div class="vertical-line">
       </div>
-      <form class="content" action="/my-handling-form-page" method="post">
-        <div>
-          <input type="text" name="user_name" placeholder="Your name" />
-        </div>
-        <div>
-          <input type="email" name="user_email" placeholder="Your email" />
-        </div>
-        <div>
-          <textarea name="user_message" placeholder="Your message"></textarea>
-        </div>
-        <div class="button">
-          <button type="submit">Send your message</button>
-        </div>
-        <div class="social-media" role="group">
-          <ul>
-            <li>
-              <a target="_blank" href="https://nl.linkedin.com/in/ela-korkmaz-8299b3a3"><img  alt="" src="includes/img/linkedin.svg" width="40" height="40">
-              </a>
-            <li>
-              <a target="_blank" href="http://www.facebook.com/elakorkmaz87"><img alt="" src="includes/img/facebook.svg" width="40" height="40">
-              </a>
-            <li>
-              <a target="_blank" href="https://github.com/elakorkmaz"><img  alt="" src="includes/img/github.svg" width="40" height="40">
-              </a>
-            <li>
-              <a target="_blank" href="https://www.instagram.com/ela.upcase"><img alt="" src="includes/img/instagram.svg" width="40" height="40">
-              </a>
-          </ul>
-        </div>
-      </form>
-   </div>
+      <div class="container">
+        <form class="content" action="/my-handling-form-page" method="post">
+          <div>
+            <input type="text" name="user_name" placeholder="Your name" />
+          </div>
+          <div>
+            <input type="email" name="user_email" placeholder="Your email" />
+          </div>
+          <div>
+            <textarea name="user_message" placeholder="Your message"></textarea>
+          </div>
+          <div class="button">
+            <button type="submit">Send your message</button>
+          </div>
+          <div class="social-media" role="group">
+            <ul>
+              <li>
+                <a target="_blank" href="https://nl.linkedin.com/in/ela-korkmaz-8299b3a3"><img  alt="" src="includes/img/linkedin.svg" width="40" height="40">
+                </a>
+              <li>
+                <a target="_blank" href="http://www.facebook.com/elakorkmaz87"><img alt="" src="includes/img/facebook.svg" width="40" height="40">
+                </a>
+              <li>
+                <a target="_blank" href="https://github.com/elakorkmaz"><img  alt="" src="includes/img/github.svg" width="40" height="40">
+                </a>
+              <li>
+                <a target="_blank" href="https://www.instagram.com/ela.upcase"><img alt="" src="includes/img/instagram.svg" width="40" height="40">
+                </a>
+            </ul>
+          </div>
+        </form>
+      </div>
   </section>
 
   <div class="vertical-line-2">
