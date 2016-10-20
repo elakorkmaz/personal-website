@@ -297,9 +297,7 @@ button {
 .social-media {
   width: 100%;
   text-align: center;
-  margin-bottom: 0;
   display: block;
-  margin-top: 0;
   margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
@@ -315,14 +313,13 @@ button {
 .social-media li {
   display: inline-block;
   float: left;
+  padding: 10px;
 }
 
 .social-media li a {
   border: 6px solid #3AB19D;
   background-color: #3AB19D;
   display: inline-block;;
-  margin-left: 48px;
-  margin-right: 48px;
   margin-top: 0;
   margin-bottom: 0;
 }
