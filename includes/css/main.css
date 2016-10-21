@@ -1,15 +1,3 @@
-/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
-
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
-
-/* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
-
 html {
   margin-top: 250px;
   height: 100%;
@@ -59,6 +47,8 @@ a.navbar-brand>img {
 
 .navbar-default .navbar-nav > li > a {
   color: #C5C5C5;
+  padding-right: 0px;
+  padding-left: 30px;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -73,24 +63,20 @@ a.navbar-brand>img {
   padding-top: 25px;
   padding-bottom: 25px;
   display: block;
-  border-top: 3px solid #3AB19D;
-  border-bottom: 3px solid #3AB19D;
+  border-top: 2px solid #3AB19D;
+  border-bottom: 2px solid #3AB19D;
   overflow: auto;
 }
 
-p {
-  margin-bottom: 0;
+.home p {
+  margin-top: 150px;
+  margin-bottom: 0px;
 }
 
 .question {
   display: block;
   padding: 3px;
-  position: static;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
+  margin: 0 auto;
   width: 100px;
   height: 100px;
   text-align: center;
@@ -135,83 +121,46 @@ p {
           box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
 }
 
-.vertical-line-2 {
-  margin: 0 auto;
-  width: 3px;
-  height: 600px;
-  background: #3AB19D;
-}
-
 .title {
   color: #3AB19D;
-  font-weight: bold;
-  font-size: 42px;
+  font-size: 36px;
   text-align: center;
   display: block;
-  margin-left: 0;
-  margin-right: 0;
+  margin: 0 auto;
+  display: table;
 }
 
 .title p {
   padding: 0px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 0;
-  margin-right: 0;
-}
-
-.horizontal-line {
   margin: 0 auto;
-  width: 310px;
-  height: 3px;
-  background: #3AB19D;
-}
-
-.horizontal-line-1 {
-  margin: 0 auto;
-  width: 242px;
-  height: 3px;
-  background: #3AB19D;
-}
-
-.horizontal-line-2 {
-  margin: 0 auto;
-  width: 447px;
-  height: 3px;
-  background: #3AB19D;
-}
-
-.horizontal-line-3 {
-  margin: 0 auto;
-  width: 275px;
-  height: 3px;
-  background: #3AB19D;
-}
-
-.horizontal-line-4 {
-  margin: 0 auto;
-  width: 220px;
-  height: 3px;
-  background: #3AB19D;
+  border-top: 2px solid #3AB19D;
+  border-bottom: 2px solid #3AB19D;
 }
 
 .vertical-line {
   margin: 0 auto;
-  width: 3px;
-  height: 50px;
+  width: 2px;
+  height: 40px;
+  background: #3AB19D;
+}
+
+.vertical-line-2 {
+  margin: 0 auto;
+  width: 2px;
+  height: 600px;
   background: #3AB19D;
 }
 
 .vertical-line-3 {
   margin: 0 auto;
-  width: 3px;
+  width: 2px;
   height: 150px;
   background: #3AB19D;
 }
 
 .vertical-line-4 {
   margin: 0 auto;
-  width: 3px;
+  width: 2px;
   height: 177px;
   background: #3AB19D;
 }
@@ -278,7 +227,7 @@ button {
 }
 
 .social-media li a {
-  border: 6px solid #3AB19D;
+  border: 4px solid #3AB19D;
   background-color: #3AB19D;
   display: inline-block;;
   margin-top: 0;
@@ -288,7 +237,11 @@ button {
 .footer {
   text-align: center;
   padding-top: 5px;
-  font-size: 32px;
+  padding-bottom: 25px;
+  font-size: 24px;
+  border-top: 2px solid #3AB19D;
+  display: table;
+  margin: 0 auto;
 }
 
 /*
