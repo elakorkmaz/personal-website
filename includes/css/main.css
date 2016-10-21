@@ -174,21 +174,21 @@ p {
   background: #3AB19D;
 }
 
-#horizontal-line-2 {
+.horizontal-line-2 {
   margin: 0 auto;
   width: 447px;
   height: 3px;
   background: #3AB19D;
 }
 
-#horizontal-line-3 {
+.horizontal-line-3 {
   margin: 0 auto;
   width: 275px;
   height: 3px;
   background: #3AB19D;
 }
 
-#horizontal-line-4 {
+.horizontal-line-4 {
   margin: 0 auto;
   width: 220px;
   height: 3px;

@@ -8,8 +8,8 @@ html.no-js(lang='en')
     meta(name='viewport', content='width=device-width, initial-scale=1')
     link(rel='apple-touch-icon', href='apple-touch-icon.png')
     link(rel='shortcut icon', href='icon.jpg')
-    link(href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css', rel='stylesheet')
-    link(href='includes/css/main.css', rel='stylesheet')
+    link(type="text/css" rel="stylesheet" href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
+    link(type="text/css" rel="stylesheet" href='/css/main.css')
   body
     //if lt IE 9
       p.browserupgrade
@@ -18,7 +18,7 @@ html.no-js(lang='en')
         |  browser. Please
         a(href='http://browsehappy.com/') upgrade your browser
         |  to improve your experience.
-    nav#home.navbar.navbar-default.navbar-fixed-top
+    nav.navbar.navbar-default.navbar-fixed-top
       .container-fluid
         .navbar-header
           a.navbar-brand(href='#')
@@ -37,7 +37,7 @@ html.no-js(lang='en')
             li
               a(href='#contact') Contact
     // HOME
-    section#home
+    section.home
       div
         p
           a.question(href='#about', role='button') ?
@@ -45,7 +45,7 @@ html.no-js(lang='en')
     #about.vertical-line-3
     // ABOUT
     .horizontal-line
-    section#about
+    section.about
       .title
         p
           | Get to know me
@@ -62,12 +62,12 @@ html.no-js(lang='en')
     .vertical-line-2
     #work.vertical-line-3
     // WORK
-    #horizontal-line-3
-    section#work
+    .horizontal-line-3
+    section.work
       .title
         p
           | View my work
-      #horizontal-line-3
+      .horizontal-line-3
       .vertical-line
       .container
         .row
@@ -102,7 +102,7 @@ html.no-js(lang='en')
     #contact.vertical-line-3
     // CONTACT
     .horizontal-line-1
-    section#contact
+    section.contact
       .title
         p
           | Get in touch
@@ -135,7 +135,7 @@ html.no-js(lang='en')
     .vertical-line-2
     #footer.vertical-line-3
     // FOOTER
-    #horizontal-line-4
+    .horizontal-line-4
     section.footer
       div
         p
