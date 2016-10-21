@@ -23,11 +23,11 @@ body {
   min-height: 100%;
 }
 
-.navbar-brand {
+a.navbar-brand {
   padding: 6px;
 }
 
-.navbar-brand>img {
+a.navbar-brand>img {
   height: 100%;
   width: auto;
 }
@@ -52,8 +52,9 @@ body {
 }
 
 .navbar-default .navbar-nav {
-  margin-top: 10px;
+  margin-top: 1%;
   margin-right: 0px;
+  text-align: right;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -74,6 +75,7 @@ body {
   display: block;
   border-top: 3px solid #3AB19D;
   border-bottom: 3px solid #3AB19D;
+  overflow: auto;
 }
 
 p {
@@ -203,7 +205,7 @@ p {
 .vertical-line-3 {
   margin: 0 auto;
   width: 3px;
-  height: 180px;
+  height: 150px;
   background: #3AB19D;
 }
 
@@ -217,32 +219,6 @@ p {
 .thumbnail {
   height: 400px;
   margin: 0 auto;
-}
-
-#multiple-lines {
-  width: auto;
-  height: 50px;
-  margin-top: 0;
-  margin-bottom: 0;
-  text-align:center;
-  display: block;
-  padding: 0;
-}
-
-#multiple-lines ul {
-  width: auto;
-  display: block;
-  padding: 0;
-  margin-bottom: 0;
-  margin-top: 0;
-}
-
-#multiple-lines li {
-  width: auto;
-  display: inline-block;
-  margin-bottom: 0;
-  margin-left: 70px;
-  margin-right: 70px;
 }
 
 form {
@@ -312,8 +288,6 @@ button {
 .footer {
   text-align: center;
   padding-top: 5px;
-  padding-bottom: 25px;
-  font-weight: bold;
   font-size: 32px;
 }
 
