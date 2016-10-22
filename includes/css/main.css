@@ -80,7 +80,7 @@ a.navbar-brand>img {
   width: 100px;
   height: 100px;
   text-align: center;
-  font-size: 62px;
+  font-size: 64px;
   font-weight: bold;
   text-align: center;
   white-space: nowrap;
@@ -94,7 +94,7 @@ a.navbar-brand>img {
           user-select: none;
   color: #3AB19D;
   background-color: transparent;
-  border: 6px solid #3AB19D;
+  border: 2px solid #3AB19D;
   border-radius: 100px;
 }
 .question:focus,
