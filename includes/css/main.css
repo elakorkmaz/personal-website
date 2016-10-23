@@ -1,6 +1,5 @@
 html {
   margin-top: 250px;
-  height: 100%;
 }
 
 body {
@@ -9,6 +8,8 @@ body {
 	font-size: 18px;
 	font-weight: 100;
   min-height: 100%;
+  padding-bottom: 50px;
+  height: 100%;
 }
 
 a.navbar-brand {
@@ -53,18 +54,16 @@ a.navbar-brand>img {
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #3AB19D;
+  color: #28B7AE;
   background-color: transparent;
 }
 
 .container {
   height: 480px;
   margin: 0 auto;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding: 25px;
   display: block;
-  border-top: 2px solid #3AB19D;
-  border-bottom: 2px solid #3AB19D;
+  border: 2px solid #28B7AE;
   overflow: auto;
 }
 
@@ -75,12 +74,11 @@ a.navbar-brand>img {
 
 .question {
   display: block;
-  padding: 3px;
   margin: 0 auto;
   width: 100px;
   height: 100px;
   text-align: center;
-  font-size: 64px;
+  font-size: 72px;
   font-weight: bold;
   text-align: center;
   white-space: nowrap;
@@ -92,9 +90,9 @@ a.navbar-brand>img {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  color: #3AB19D;
+  color: #28B7AE;
   background-color: transparent;
-  border: 2px solid #3AB19D;
+  border: 2px solid #28B7AE;
   border-radius: 100px;
 }
 .question:focus,
@@ -110,7 +108,7 @@ a.navbar-brand>img {
 .question:focus,
 .question.focus {
   color: #FFF;
-  background-color:#3AB19D;
+  background-color:#28B7AE;
   text-decoration: none;
 }
 .question:active,
@@ -122,47 +120,47 @@ a.navbar-brand>img {
 }
 
 .title {
-  color: #3AB19D;
+  color: #28B7AE;
   font-size: 36px;
   text-align: center;
   display: block;
   margin: 0 auto;
   display: table;
+  padding: 8px;
+  border: 2px solid #28B7AE;
 }
 
 .title p {
   padding: 0px;
   margin: 0 auto;
-  border-top: 2px solid #3AB19D;
-  border-bottom: 2px solid #3AB19D;
 }
 
 .vertical-line {
   margin: 0 auto;
   width: 2px;
   height: 40px;
-  background: #3AB19D;
+  background: #28B7AE;
 }
 
 .vertical-line-2 {
   margin: 0 auto;
   width: 2px;
   height: 600px;
-  background: #3AB19D;
+  background: #28B7AE;
 }
 
 .vertical-line-3 {
   margin: 0 auto;
   width: 2px;
   height: 150px;
-  background: #3AB19D;
+  background: #28B7AE;
 }
 
 .vertical-line-4 {
   margin: 0 auto;
   width: 2px;
   height: 177px;
-  background: #3AB19D;
+  background: #28B7AE;
 }
 
 .thumbnail {
@@ -171,7 +169,7 @@ a.navbar-brand>img {
 }
 
 form {
-  width: 75%;
+  width: 100%;
   padding: 10px;
   margin: auto;
 }
@@ -227,21 +225,11 @@ button {
 }
 
 .social-media li a {
-  border: 4px solid #3AB19D;
-  background-color: #3AB19D;
+  border: 4px solid #28B7AE;
+  background-color: #28B7AE;
   display: inline-block;;
   margin-top: 0;
   margin-bottom: 0;
-}
-
-.footer {
-  text-align: center;
-  padding-top: 5px;
-  padding-bottom: 25px;
-  font-size: 24px;
-  border-top: 2px solid #3AB19D;
-  display: table;
-  margin: 0 auto;
 }
 
 /*
