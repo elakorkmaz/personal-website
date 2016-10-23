@@ -126,8 +126,10 @@ a.navbar-brand>img {
   display: block;
   margin: 0 auto;
   display: table;
-  padding: 8px;
-  border: 2px solid #28B7AE;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-top: 2px solid #28B7AE;
+  border-bottom: 2px solid #28B7AE;
 }
 
 .title p {
@@ -230,6 +232,10 @@ button {
   display: inline-block;;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.section.title#copyright {
+  border-bottom: 0;
 }
 
 /*
