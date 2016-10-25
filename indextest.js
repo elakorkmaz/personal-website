@@ -1,25 +1,30 @@
 const express = require('express'),
-      pug = require('pug'),
       morgan = require('morgan'),
       nodemailer = require('nodemailer'),
-      bodyParser = require('body-parser');
-
-console.log(process.env.PERSONAL_WEBSITE_EMAIL_ADDRESS);
+      bodyParser = require('body-parser'),
+      pug = require('pug');
 
 var app = express(),
-  transporter = nodemailer.createTransport(
-    'smtps://' + process.env.PERSONAL_WEBSITE_EMAIL_ADDRESS + ':' +
-    process.env.PERSONAL_WEBSITE_EMAIL_PASSWORD + '@smtp.gmail.com'
-  );
-
-app.set('view engine', 'pug');
+    transporter = nodemailer.createTransport(
+      'smtps://' + process.env.PERSONAL_WEBSITE_EMAIL_ADDRESS + ':' +
+      process.env.PERSONAL_WEBSITE_EMAIL_PASSWORD + '@smtp.gmail.com'
+    );
 
 app.use(express.static(__dirname + '/public'));
+
 app.use(bodyParser.urlencoded({ extended: false }));
+
 app.use(morgan('dev'));
 
 app.get('/', function(request, response) {
-  response.render('index.pug');
+  console.log('Requesting home page...');
+  response.send(pug.renderFile(__dirname + '/views/index.pug', {}));
+  // response.sendFile(__dirname + '/index.html');
+});
+
+app.get('/contact', function(request, response) {
+  console.log('Requesting contact page....');
+  response.send(pug.renderFile(__dirname + '/views/contact.pug', {}));
 });
 
 app.post('/send-email', (request, response) => {
@@ -43,6 +48,9 @@ app.post('/send-email', (request, response) => {
   response.redirect('/');
 });
 
-app.listen(3000, () => {
-  console.log('Example app listening on port 3000!');
+
+
+
+app.listen(3000, function() {
+  console.log('Web server started on port 3000');
 });
